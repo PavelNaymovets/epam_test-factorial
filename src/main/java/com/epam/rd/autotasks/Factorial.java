@@ -14,7 +14,7 @@ public class Factorial {
 
     public static String getFactorial(int param){
         int factorial = 1;
-        for(int i = 1; i < factorial; i++){
+        for(int i = 1; i <= param; i++){
             factorial = factorial * i;
         }
         return Integer.toString(factorial);
